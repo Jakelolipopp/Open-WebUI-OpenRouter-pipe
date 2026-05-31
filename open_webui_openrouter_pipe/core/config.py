@@ -1466,7 +1466,7 @@ class Valves(BaseModel):
         description="When enabled, automatically include the provider's max_output_tokens in each request. Disable to omit the parameter entirely.",
     )
     SHOW_FINAL_USAGE_STATUS: bool = Field(
-        default=True,
+        default=False,
         description="When True, the final status message includes elapsed time, cost, and token usage.",
     )
     FINAL_USAGE_STATUS_STYLE: Literal["text", "icons"] = Field(
