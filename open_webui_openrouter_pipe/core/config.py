@@ -30,7 +30,7 @@ LOGGER = logging.getLogger("open_webui_openrouter_pipe")
 
 _OPENROUTER_TITLE = "Open WebUI plugin for OpenRouter Responses API"
 _OPENROUTER_CATEGORIES = "general-chat"
-_OPENROUTER_REFERER = "https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/"
+_OPENROUTER_REFERER = "https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/"
 _DEFAULT_PIPE_ID = "open_webui_openrouter_pipe"
 _FUNCTION_MODULE_PREFIX = "function_"
 _OPENROUTER_FRONTEND_MODELS_URL = "https://openrouter.ai/api/frontend/models"
@@ -779,7 +779,7 @@ class Valves(BaseModel):
 
     # Models
     MODEL_ID: str = Field(
-        default="google/gemma-4-26b-a4b-it,~google/gemini-flash-latest,~google/gemini-flash-latest@preset/gemini-flash-latest-low,~google/gemini-flash-latest@preset/gemini-flash-latest-medium,~google/gemini-flash-latest@preset/gemini-flash-latest-extra-high",
+        default="auto",
         description=(
             "Comma separated OpenRouter model IDs to expose in Open WebUI. "
             "Set to 'auto' to import every available Responses-capable model."
@@ -845,7 +845,7 @@ class Valves(BaseModel):
         ),
     )
     VARIANT_MODELS: str = Field(
-        default="",
+        default="~google/gemini-flash-latest@preset/gemini-flash-latest-low,~google/gemini-flash-latest@preset/gemini-flash-latest-medium,~google/gemini-flash-latest@preset/gemini-flash-latest-extra-high",
         title="Variant models",
         description=(
             "Comma-separated list of variant model entries in format 'base_id:variant_tag'. "
