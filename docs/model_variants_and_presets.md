@@ -636,7 +636,7 @@ If you encounter issues with model variants:
 1. **Check pipe logs** for variant expansion and API request details
 2. **Verify base model** is available in your catalog
 3. **Review test suite** for expected behavior examples
-4. **Report issues** at [GitHub Issues](https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/issues)
+4. **Report issues** at [GitHub Issues](https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/issues)
 
 ---
 

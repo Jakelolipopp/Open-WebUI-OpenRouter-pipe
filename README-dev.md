@@ -125,16 +125,16 @@ git checkout dev && git merge main                 # → sync dev
 
 ```
 # Stable (recommended for most users) — auto-resolves to latest tagged release:
-https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/releases/latest/download/open_webui_openrouter_pipe_bundled.py
+https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/releases/latest/download/open_webui_openrouter_pipe_bundled.py
 
 # Stable (compressed, same behavior but smaller + less clutter in the editor):
-https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/releases/latest/download/open_webui_openrouter_pipe_bundled_compressed.py
+https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/releases/latest/download/open_webui_openrouter_pipe_bundled_compressed.py
 
 # Development build (bleeding edge, may be unstable):
-https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/releases/download/dev/open_webui_openrouter_pipe_bundled.py
+https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/releases/download/dev/open_webui_openrouter_pipe_bundled.py
 
 # Development build (compressed):
-https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/releases/download/dev/open_webui_openrouter_pipe_bundled_compressed.py
+https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/releases/download/dev/open_webui_openrouter_pipe_bundled_compressed.py
 ```
 
 ### For Developers (Artifacts)

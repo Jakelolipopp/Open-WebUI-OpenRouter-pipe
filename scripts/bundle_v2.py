@@ -791,9 +791,9 @@ def _render_header(*, version: str, compressed: bool) -> str:
     description_suffix = " (minified)" if compressed else ""
     return f'''"""
 title: Open WebUI OpenRouter Responses Pipe
-author: rbb-dev
-author_url: https://github.com/rbb-dev
-git_url: https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe
+author: Jakelolipopp
+author_url: https://github.com/Jakelolipopp
+git_url: https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe
 id: open_webui_openrouter_pipe
 description: OpenRouter Responses API integration for Open WebUI (flat monolith{description_suffix})
 required_open_webui_version: 0.9.1
@@ -1083,9 +1083,9 @@ def _b64_chunks_expr(b64_text: str, *, chunk_size: int = 120) -> str:
 def _render_header_compressed(*, version: str) -> str:
     return f'''"""
 title: Open WebUI OpenRouter Responses Pipe
-author: rbb-dev
-author_url: https://github.com/rbb-dev
-git_url: https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe
+author: Jakelolipopp
+author_url: https://github.com/Jakelolipopp
+git_url: https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe
 id: open_webui_openrouter_pipe
 description: OpenRouter Responses API integration for Open WebUI (bundled and compressed monolith)
 required_open_webui_version: 0.9.1

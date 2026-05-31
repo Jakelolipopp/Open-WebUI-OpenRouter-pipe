@@ -30,7 +30,7 @@ LOGGER = logging.getLogger("open_webui_openrouter_pipe")
 
 _OPENROUTER_TITLE = "Open WebUI plugin for OpenRouter Responses API"
 _OPENROUTER_CATEGORIES = "general-chat"
-_OPENROUTER_REFERER = "https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/"
+_OPENROUTER_REFERER = "https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/"
 _DEFAULT_PIPE_ID = "open_webui_openrouter_pipe"
 _FUNCTION_MODULE_PREFIX = "function_"
 _OPENROUTER_FRONTEND_MODELS_URL = "https://openrouter.ai/api/frontend/models"

@@ -48,9 +48,9 @@ def _render_header(*, version: str, compressed: bool) -> str:
     description_prefix = " and compressed " if compressed else " "
     return f'''"""
 title: Open WebUI OpenRouter Responses Pipe
-author: rbb-dev
-author_url: https://github.com/rbb-dev
-git_url: https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe
+author: Jakelolipopp
+author_url: https://github.com/Jakelolipopp
+git_url: https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe
 id: open_webui_openrouter_pipe
 description: OpenRouter Responses API integration for Open WebUI (bundled{description_prefix}monolith)
 required_open_webui_version: 0.9.1

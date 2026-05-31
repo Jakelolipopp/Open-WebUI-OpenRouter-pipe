@@ -1,7 +1,7 @@
 # Open WebUI → OpenRouter Pipe
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-2.6.4-blue.svg)](https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe)
+[![Version](https://img.shields.io/badge/version-2.6.4-blue.svg)](https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe)
 [![Open WebUI Compatible](https://img.shields.io/badge/Open%20WebUI-0.9.1%2B-green.svg)](https://openwebui.com/)
 
 **390+ AI models. Chat, image, and video — all from your Open WebUI.**
@@ -91,12 +91,12 @@ Pick one:
 
 **Readable bundle (easy to audit/edit):**
 ```
-https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/releases/latest/download/open_webui_openrouter_pipe_bundled.py
+https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/releases/latest/download/open_webui_openrouter_pipe_bundled.py
 ```
 
 **Compressed bundle (routine installs; smaller payload, faster upload, same runtime behavior):**
 ```
-https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/releases/latest/download/open_webui_openrouter_pipe_bundled_compressed.py
+https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/releases/latest/download/open_webui_openrouter_pipe_bundled_compressed.py
 ```
 
 Both are automatically generated from the same modular source code on every release.
@@ -108,12 +108,12 @@ For the latest development commits (may be unstable):
 
 **Readable bundle:**
 ```
-https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/releases/download/dev/open_webui_openrouter_pipe_bundled.py
+https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/releases/download/dev/open_webui_openrouter_pipe_bundled.py
 ```
 
 **Compressed bundle:**
 ```
-https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/releases/download/dev/open_webui_openrouter_pipe_bundled_compressed.py
+https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/releases/download/dev/open_webui_openrouter_pipe_bundled_compressed.py
 ```
 
 </details>

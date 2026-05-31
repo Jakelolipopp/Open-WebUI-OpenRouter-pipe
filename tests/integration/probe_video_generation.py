@@ -35,7 +35,7 @@ def _headers() -> dict[str, str]:
     return {
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/",
+        "HTTP-Referer": "https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/",
         "X-OpenRouter-Title": "Open WebUI OpenRouter pipe video probe",
     }
 

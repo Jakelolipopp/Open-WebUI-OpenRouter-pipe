@@ -573,7 +573,7 @@ class FilterManager:
         template = '"""\n'
         template += 'title: OR Web Tools\n'
         template += 'author: Open-WebUI-OpenRouter-pipe\n'
-        template += 'author_url: https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe\n'
+        template += 'author_url: https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe\n'
         template += 'id: __FILTER_ID__\n'
         template += 'description: Configures OpenRouter server tools (web search, web fetch, datetime) for the OpenRouter pipe.\n'
         template += 'version: 0.1.0\n'
@@ -723,7 +723,7 @@ class FilterManager:
         template = '''"""
 title: OR Image Gen
 author: Open-WebUI-OpenRouter-pipe
-author_url: https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe
+author_url: https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe
 id: __FILTER_ID__
 description: Configures OpenRouter image generation for the OpenRouter pipe.
 version: 0.1.0
@@ -1212,7 +1212,7 @@ class Filter:
         template = '''"""
 title: OR Direct Uploads
 author: Open-WebUI-OpenRouter-pipe
-author_url: https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe
+author_url: https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe
 id: __FILTER_ID__
 description: Bypass Open WebUI RAG for chat uploads and forward them to OpenRouter as direct file/audio/video inputs (user-controlled via valves).
 version: 0.1.0
@@ -2057,7 +2057,7 @@ class Filter:
         return (f'''"""
 title: Provider: {safe_display_name_escaped}
 author: Open-WebUI-OpenRouter-pipe
-author_url: https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe
+author_url: https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe
 id: {filter_id}
 description: Provider routing for {safe_display_name_escaped}
 version: 0.2.0

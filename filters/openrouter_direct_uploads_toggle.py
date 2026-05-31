@@ -1,7 +1,7 @@
 """
 title: OR Direct Uploads
 author: Open-WebUI-OpenRouter-pipe
-author_url: https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe
+author_url: https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe
 id: openrouter_direct_uploads
 description: Bypass Open WebUI RAG for chat uploads and forward them to OpenRouter as direct file/audio/video inputs (user-controlled via valves).
 version: 0.1.0

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Poll OpenRouter cost snapshots from Redis and persist them into OpenWebUI-Monitor’s Postgres tables so the UI dashboards remain accurate.
-Repository: https://github.com/rbb-dev/OpenWebUI-Monitor
+Repository: https://github.com/Jakelolipopp/OpenWebUI-Monitor
 This script enables OpenWebUI-Monitor to run without the openwebui_monitor.py filter.
 
 Behavior overview:

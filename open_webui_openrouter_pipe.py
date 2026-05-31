@@ -1,13 +1,13 @@
 """
 title: Open WebUI OpenRouter Responses Pipe
-author: rbb-dev
-author_url: https://github.com/rbb-dev
-git_url: https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe
+author: Jakelolipopp
+author_url: https://github.com/Jakelolipopp
+git_url: https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe
 id: open_webui_openrouter_pipe
 description: Stub loader that installs and imports the full pipe from GitHub
 required_open_webui_version: 0.9.1
 version: 2.6.4
-requirements: git+https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe.git@v2.6.4
+requirements: git+https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe.git@v2.6.4
 license: MIT
 
 This is a lightweight stub for Open WebUI.

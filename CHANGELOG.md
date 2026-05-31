@@ -161,7 +161,7 @@ removed hard coded stream timeouts
 Updated version to 1.0.5, modified logger warnings for clarity, adjusted default values for PERSIST_TOOL_RESULTS and REDIS_CACHE_TTL_SECONDS, and improved error handling in various functions.
 - Update issue templates
 - Update README.md
-- Merge branch 'main' of https://github.com/rbb-dev/openrouter_responses_pipe
+- Merge branch 'main' of https://github.com/Jakelolipopp/openrouter_responses_pipe
 - Propagate cancellations to OpenRouter pipe
 
 Tie each queued job future to its worker task so that Open WebUI stop requests cancel the in flight stream immediately. Also make the top level pipe entrypoint respect asyncio.CancelledError so the caller sees the cancellation and no spurious completion/status events are emitted.
@@ -193,7 +193,7 @@ Channels do not populate metadata["model"], so _resolve_pipe_identifier now also
 - Add 'Model' field to bug report template
 
 Added 'Model' field to both Desktop and Smartphone sections for more detailed bug reports.
-- Merge branch 'main' of https://github.com/rbb-dev/openrouter_responses_pipe
+- Merge branch 'main' of https://github.com/Jakelolipopp/openrouter_responses_pipe
 - Guard replaying orphaned tool artifacts
 
 Skip rehydrating persisted function_call records that lost their matching outputs, add helper/util coverage, and protect future OpenRouter calls.

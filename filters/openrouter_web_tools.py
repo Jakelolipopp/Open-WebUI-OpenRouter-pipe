@@ -1,7 +1,7 @@
 """
 title: OR Web Tools
 author: Open-WebUI-OpenRouter-pipe
-author_url: https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe
+author_url: https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe
 id: openrouter_web_tools
 description: Configures OpenRouter server tools (web search, web fetch, datetime) for the OpenRouter pipe.
 version: 0.1.0

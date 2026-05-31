@@ -29,12 +29,12 @@ Use these docs if you are modifying the pipe, working on tests, or extending the
 
    **Readable bundle (audits or troubleshooting):**
    ```
-   https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/releases/latest/download/open_webui_openrouter_pipe_bundled.py
+   https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/releases/latest/download/open_webui_openrouter_pipe_bundled.py
    ```
 
    **Compressed bundle (routine installs; smaller payload, faster upload, same runtime behavior):**
    ```
-   https://github.com/rbb-dev/Open-WebUI-OpenRouter-pipe/releases/latest/download/open_webui_openrouter_pipe_bundled_compressed.py
+   https://github.com/Jakelolipopp/Open-WebUI-OpenRouter-pipe/releases/latest/download/open_webui_openrouter_pipe_bundled_compressed.py
    ```
 3. Save and enable the function.
 
