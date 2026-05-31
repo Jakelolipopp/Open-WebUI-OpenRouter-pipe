@@ -470,18 +470,18 @@ class FilterManager:
                 '            description="Region/state for location-aware search results.",\n'
                 '        )',
                 '        WEB_SEARCH_LOCATION_COUNTRY: str = Field(\n'
-                '            default="",\n'
+                '            default="DE",\n'
                 '            description="Country code (e.g. AU, US) for location-aware search results.",\n'
                 '        )',
                 '        WEB_SEARCH_LOCATION_TIMEZONE: str = Field(\n'
-                '            default="",\n'
+                '            default="Europe/Berlin",\n'
                 '            description="Timezone (e.g. Australia/Sydney) for location-aware search results.",\n'
                 '        )',
             ])
         if enable_web_fetch:
             user_valves_fields.append(
                 '        WEB_FETCH: bool = Field(\n'
-                '            default=False,\n'
+                '            default=True,\n'
                 '            description="Enable OpenRouter web fetch (URL reading) for this chat.",\n'
                 '        )'
             )
@@ -492,7 +492,7 @@ class FilterManager:
                 '            description="Enable OpenRouter datetime tool for this chat (free, no extra cost).",\n'
                 '        )',
                 '        DATETIME_TIMEZONE: str = Field(\n'
-                '            default="",\n'
+                '            default="Europe/Berlin",\n'
                 '            description="Timezone for the datetime tool (e.g. Australia/Sydney). Empty uses UTC.",\n'
                 '        )',
             ])
