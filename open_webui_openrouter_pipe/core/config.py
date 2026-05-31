@@ -779,7 +779,7 @@ class Valves(BaseModel):
 
     # Models
     MODEL_ID: str = Field(
-        default="auto",
+        default="google/gemma-4-26b-a4b-it,@preset/gemini-flash-latest-low,@preset/gemini-flash-latest-medium,@preset/gemini-flash-latest-extra-high",
         description=(
             "Comma separated OpenRouter model IDs to expose in Open WebUI. "
             "Set to 'auto' to import every available Responses-capable model."
